@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orígenes — Amari Cacao</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,360;0,9..144,400;0,9..144,460;1,9..144,360;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="has-head">
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+    <ul class="nav-links">
+      <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+      <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+      <li><a href="origenes.html" class="active" data-i18n="nav.origins">Orígenes</a></li>
+      <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contacto.html" class="nav-cta" data-i18n="nav.cta">Solicitar información</a>
+    </div>
+  </nav>
+  <div class="page-head">
+    <div class="hero-bg"><div class="blob blob1"></div><div class="blob blob2"></div></div>
+    <div class="page-head-in">
+      <div class="breadcrumb"><a href="index.html" data-i18n="crumb.home">Inicio</a> / <span data-i18n="nav.origins">Orígenes</span></div>
+      <p class="eyebrow" data-i18n="ori.eyebrow"></p>
+      <h1 data-i18n="ori.title"></h1>
+      <p data-i18n="ori.intro"></p>
+    </div>
+  </div>
+  <section id="origenes" style="padding-top:3rem;">
+    <div class="inn">
+      <div class="ori-grid fa">
+        <div class="ori-card ori-ec">
+          <div class="ori-pais">Ecuador</div>
+          <span class="ori-tag" data-i18n="ori.ec.tag"></span>
+          <p class="ori-desc" data-i18n="ori.ec.desc"></p>
+        </div>
+        <div class="ori-card ori-ni">
+          <div class="ori-pais">Nicaragua</div>
+          <span class="ori-tag" data-i18n="ori.ni.tag"></span>
+          <p class="ori-desc" data-i18n="ori.ni.desc"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mercado">
+    <div class="inn">
+      <div class="mkt-grid fa">
+        <div class="mkt-txt">
+          <p class="eyebrow" data-i18n="mkt.eyebrow"></p>
+          <h2 class="st" data-i18n="mkt.title"></h2>
+          <p data-i18n="mkt.p1"></p>
+          <p data-i18n="mkt.p2"></p>
+          <div class="mkt-bullets">
+            <div class="mkt-bullet" data-i18n="mkt.b1"></div>
+            <div class="mkt-bullet" data-i18n="mkt.b2"></div>
+            <div class="mkt-bullet" data-i18n="mkt.b3"></div>
+          </div>
+        </div>
+        <div class="mkt-panel">
+          <div class="tick"><span class="tick-l">ICE NY · Cacao</span><span class="tick-live" data-i18n="mkt.live"></span></div>
+          <div class="tick"><span class="tick-l">Ecuador FOB Guayaquil</span><span class="tick-v" data-i18n="mkt.consult"></span></div>
+          <div class="tick"><span class="tick-l">Nicaragua Fine Flavor</span><span class="tick-v" data-i18n="mkt.consult"></span></div>
+          <p class="tick-note" data-i18n="mkt.note"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="logistica">
+    <div class="inn">
+      <div class="log-grid fa">
+        <div class="log-txt">
+          <p class="eyebrow" data-i18n="log.eyebrow"></p>
+          <h2 class="st" data-i18n="log.title"></h2>
+          <p data-i18n="log.p1"></p>
+          <p data-i18n="log.p2"></p>
+          <div class="log-pills"><span class="pill" data-i18n="log.pill1"></span><span class="pill" data-i18n="log.pill2"></span><span class="pill" data-i18n="log.pill3"></span></div>
+        </div>
+        <div class="log-panel">
+          <div class="log-item"><span class="log-num">01</span><div><h5 data-i18n="log.i1.title"></h5><p data-i18n="log.i1.text"></p></div></div>
+          <div class="log-item"><span class="log-num">02</span><div><h5 data-i18n="log.i2.title"></h5><p data-i18n="log.i2.text"></p></div></div>
+          <div class="log-item"><span class="log-num">03</span><div><h5 data-i18n="log.i3.title"></h5><p data-i18n="log.i3.text"></p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-in">
+      <a href="index.html" class="footer-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+      <ul class="footer-links">
+        <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+        <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <span class="footer-copy">© 2026 Amari Cacao España · amari.eus</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

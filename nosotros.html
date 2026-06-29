@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosotros — Amari Cacao</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,360;0,9..144,400;0,9..144,460;1,9..144,360;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="has-head">
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+    <ul class="nav-links">
+      <li><a href="nosotros.html" class="active" data-i18n="nav.about">Nosotros</a></li>
+      <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+      <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+      <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contacto.html" class="nav-cta" data-i18n="nav.cta">Solicitar información</a>
+    </div>
+  </nav>
+  <div class="page-head">
+    <div class="hero-bg"><div class="blob blob1"></div><div class="blob blob2"></div></div>
+    <div class="page-head-in">
+      <div class="breadcrumb"><a href="index.html" data-i18n="crumb.home">Inicio</a> / <span data-i18n="nav.about">Nosotros</span></div>
+      <p class="eyebrow" data-i18n="about.eyebrow"></p>
+      <h1 data-i18n="about.title"></h1>
+      <p data-i18n="about.intro"></p>
+    </div>
+  </div>
+  <section id="quienes" style="padding-top:3rem;">
+    <div class="inn">
+      <div class="equipo-grid fa">
+        <div class="card equipo-card ec">
+          <div class="equipo-nombre">Lorena Gómez</div>
+          <div class="equipo-rol" data-i18n="about.lorena.role"></div>
+          <p class="equipo-bio" data-i18n="about.lorena.bio"></p>
+        </div>
+        <div class="card equipo-card ni">
+          <div class="equipo-nombre">Héctor Di Luca</div>
+          <div class="equipo-rol" data-i18n="about.hector.role"></div>
+          <p class="equipo-bio" data-i18n="about.hector.bio"></p>
+        </div>
+      </div>
+      <div class="mvv-grid fa">
+        <div class="card mvv-card"><span class="mvv-tag" data-i18n="mvv.mission.tag"></span><h3 data-i18n="mvv.mission.title"></h3><p data-i18n="mvv.mission.text"></p></div>
+        <div class="card mvv-card"><span class="mvv-tag" data-i18n="mvv.vision.tag"></span><h3 data-i18n="mvv.vision.title"></h3><p data-i18n="mvv.vision.text"></p></div>
+        <div class="card mvv-card"><span class="mvv-tag" data-i18n="mvv.purpose.tag"></span><h3 data-i18n="mvv.purpose.title"></h3><p data-i18n="mvv.purpose.text"></p></div>
+      </div>
+      <div class="valores-grid fa">
+        <div class="valor"><div class="valor-dot" style="background:var(--rojo)"></div><h4 data-i18n="val.1.title"></h4><p data-i18n="val.1.text"></p></div>
+        <div class="valor"><div class="valor-dot" style="background:var(--verde)"></div><h4 data-i18n="val.2.title"></h4><p data-i18n="val.2.text"></p></div>
+        <div class="valor"><div class="valor-dot" style="background:var(--rojo)"></div><h4 data-i18n="val.3.title"></h4><p data-i18n="val.3.text"></p></div>
+        <div class="valor"><div class="valor-dot" style="background:var(--verde)"></div><h4 data-i18n="val.4.title"></h4><p data-i18n="val.4.text"></p></div>
+        <div class="valor"><div class="valor-dot" style="background:var(--rojo)"></div><h4 data-i18n="val.5.title"></h4><p data-i18n="val.5.text"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sectores">
+    <div class="inn">
+      <div class="fa" style="margin-bottom:3rem;">
+        <p class="eyebrow" data-i18n="sec.eyebrow"></p>
+        <h2 class="st" data-i18n="sec.title"></h2>
+      </div>
+      <div class="sec-grid fa">
+        <div class="card sec-card r"><div class="sec-num">01</div><h4 data-i18n="sec.1.title"></h4><p data-i18n="sec.1.text"></p></div>
+        <div class="card sec-card g"><div class="sec-num">02</div><h4 data-i18n="sec.2.title"></h4><p data-i18n="sec.2.text"></p></div>
+        <div class="card sec-card r"><div class="sec-num">03</div><h4 data-i18n="sec.3.title"></h4><p data-i18n="sec.3.text"></p></div>
+        <div class="card sec-card g"><div class="sec-num">04</div><h4 data-i18n="sec.4.title"></h4><p data-i18n="sec.4.text"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sostenibilidad">
+    <div class="inn">
+      <div class="sost-grid fa">
+        <div class="sost-txt">
+          <p class="eyebrow" data-i18n="sost.eyebrow"></p>
+          <h2 class="st" data-i18n="sost.title"></h2>
+          <p data-i18n="sost.p1"></p>
+          <p data-i18n="sost.p2"></p>
+          <p class="sost-quote" data-i18n="sost.quote"></p>
+        </div>
+        <div class="sost-items">
+          <div class="sost-item"><h5 data-i18n="sost.i1.title"></h5><p data-i18n="sost.i1.text"></p></div>
+          <div class="sost-item"><h5 data-i18n="sost.i2.title"></h5><p data-i18n="sost.i2.text"></p></div>
+          <div class="sost-item"><h5 data-i18n="sost.i3.title"></h5><p data-i18n="sost.i3.text"></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-in">
+      <a href="index.html" class="footer-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+      <ul class="footer-links">
+        <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+        <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <span class="footer-copy">© 2026 Amari Cacao España · amari.eus</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
