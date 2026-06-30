@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — Amari Cacao</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,360;0,9..144,400;0,9..144,460;1,9..144,360;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="has-head">
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+    <ul class="nav-links">
+      <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+      <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+      <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+      <li><a href="contacto.html" class="active" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contacto.html" class="nav-cta" data-i18n="nav.cta">Solicitar información</a>
+    </div>
+  </nav>
+  <div class="page-head">
+    <div class="hero-bg"><div class="blob blob1"></div><div class="blob blob2"></div></div>
+    <div class="page-head-in">
+      <div class="breadcrumb"><a href="index.html" data-i18n="crumb.home">Inicio</a> / <span data-i18n="nav.contact">Contacto</span></div>
+      <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+      <h1 data-i18n="contact.title"></h1>
+      <p data-i18n="contact.intro"></p>
+    </div>
+  </div>
+  <section id="contacto" style="padding-top:3rem;background:var(--bg);">
+    <div class="inn">
+      <div class="contacto-grid">
+        <div class="contacto-info fa">
+          <div class="c-items">
+            <div class="c-item"><span class="c-label" data-i18n="contact.l1"></span><span class="c-val"><a href="mailto:comercial@amari.eus">comercial@amari.eus</a></span></div>
+            <div class="c-item"><span class="c-label" data-i18n="contact.l2"></span><span class="c-val"><a href="mailto:cacao@amari.eus">cacao@amari.eus</a></span></div>
+            <div class="c-item"><span class="c-label" data-i18n="contact.l3"></span><span class="c-val">Valencia, España</span></div>
+            <div class="c-item"><span class="c-label">Instagram</span><span class="c-val"><a href="https://instagram.com/amari.cacao" target="_blank">@amari.cacao</a></span></div>
+          </div>
+        </div>
+        <div class="form-card fa">
+          <div class="fg"><label class="fl" for="nombre" data-i18n="form.name"></label><input class="fi" type="text" id="nombre" data-i18n-ph="form.name.ph" /></div>
+          <div class="fg"><label class="fl" for="email">Email</label><input class="fi" type="email" id="email" placeholder="tu@empresa.com" /></div>
+          <div class="fg"><label class="fl" for="interes" data-i18n="form.interest"></label><input class="fi" type="text" id="interes" data-i18n-ph="form.interest.ph" /></div>
+          <div class="fg"><label class="fl" for="msg" data-i18n="form.msg"></label><textarea class="ft" id="msg" data-i18n-ph="form.msg.ph"></textarea></div>
+          <button class="fsub" type="button" data-i18n="form.submit"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-in">
+      <a href="index.html" class="footer-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+      <ul class="footer-links">
+        <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+        <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <span class="footer-copy">© 2026 Amari Cacao España · amari.eus</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

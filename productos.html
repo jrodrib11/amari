@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos — Amari Cacao</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,360;0,9..144,400;0,9..144,460;1,9..144,360;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="has-head">
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+    <ul class="nav-links">
+      <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+      <li><a href="productos.html" class="active" data-i18n="nav.products">Productos</a></li>
+      <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+      <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" onclick="setLang('es')">ES</button>
+        <button class="lang-btn" onclick="setLang('en')">EN</button>
+      </div>
+      <a href="contacto.html" class="nav-cta" data-i18n="nav.cta">Solicitar información</a>
+    </div>
+  </nav>
+  <div class="page-head">
+    <div class="hero-bg"><div class="blob blob1"></div><div class="blob blob2"></div></div>
+    <div class="page-head-in">
+      <div class="breadcrumb"><a href="index.html" data-i18n="crumb.home">Inicio</a> / <span data-i18n="nav.products">Productos</span></div>
+      <p class="eyebrow" data-i18n="prod.eyebrow"></p>
+      <h1 data-i18n="prod.title"></h1>
+      <p data-i18n="prod.intro"></p>
+    </div>
+  </div>
+  <section id="productos" style="padding-top:3rem;">
+    <div class="inn">
+      <div class="prod-cat fa"><span class="prod-cat-dot"></span><h3 data-i18n="prod.label1">Grano de cacao</h3></div>
+      <div class="prod-grid pg2 fa">
+        <div class="card prod-card">
+          <span class="prod-origen"><span class="seed"></span>Ecuador</span>
+          <h3 class="prod-nombre" data-i18n="p1.name"></h3>
+          <p class="prod-desc" data-i18n="p1.desc"></p>
+          <div class="prod-foot"><span class="prod-tag" data-i18n="p1.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta1"></a></div>
+        </div>
+        <div class="card prod-card">
+          <span class="prod-origen"><span class="seed"></span>Nicaragua</span>
+          <h3 class="prod-nombre" data-i18n="p2.name"></h3>
+          <p class="prod-desc" data-i18n="p2.desc"></p>
+          <div class="prod-foot"><span class="prod-tag">Fine Flavor</span><a href="contacto.html" class="prod-link" data-i18n="prod.cta1"></a></div>
+        </div>
+      </div>
+      <div class="prod-grid pg2 fa">
+        <div class="card prod-card">
+          <span class="prod-origen"><span class="seed"></span>Ecuador</span>
+          <h3 class="prod-nombre" data-i18n="p3.name"></h3>
+          <p class="prod-desc" data-i18n="p3.desc"></p>
+          <div class="prod-foot"><span class="prod-tag" data-i18n="p3.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta1"></a></div>
+        </div>
+        <div class="card prod-card">
+          <span class="prod-origen"><span class="seed"></span>Ecuador</span>
+          <h3 class="prod-nombre" data-i18n="p4.name"></h3>
+          <p class="prod-desc" data-i18n="p4.desc"></p>
+          <div class="prod-foot"><span class="prod-tag" data-i18n="p4.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta1"></a></div>
+        </div>
+      </div>
+      <div class="prod-cat fa"><span class="prod-cat-dot"></span><h3 data-i18n="prod.label2">Derivados</h3></div>
+      <div class="prod-grid pg4 fa">
+        <div class="card prod-card"><span class="prod-origen"><span class="seed"></span>Ecuador</span><h3 class="prod-nombre" data-i18n="p5.name"></h3><p class="prod-desc" data-i18n="p5.desc"></p><div class="prod-foot"><span class="prod-tag" data-i18n="p5.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta2"></a></div></div>
+        <div class="card prod-card"><span class="prod-origen"><span class="seed"></span>Ecuador</span><h3 class="prod-nombre" data-i18n="p6.name"></h3><p class="prod-desc" data-i18n="p6.desc"></p><div class="prod-foot"><span class="prod-tag" data-i18n="p6.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta2"></a></div></div>
+        <div class="card prod-card"><span class="prod-origen"><span class="seed"></span>Ecuador</span><h3 class="prod-nombre" data-i18n="p7.name"></h3><p class="prod-desc" data-i18n="p7.desc"></p><div class="prod-foot"><span class="prod-tag">Nibs</span><a href="contacto.html" class="prod-link" data-i18n="prod.cta2"></a></div></div>
+        <div class="card prod-card"><span class="prod-origen"><span class="seed"></span>Ecuador</span><h3 class="prod-nombre" data-i18n="p8.name"></h3><p class="prod-desc" data-i18n="p8.desc"></p><div class="prod-foot"><span class="prod-tag" data-i18n="p8.tag"></span><a href="contacto.html" class="prod-link" data-i18n="prod.cta2"></a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-in">
+      <a href="index.html" class="footer-logo"><img src="logo.png" alt="Amari Cacao" /></a>
+      <ul class="footer-links">
+        <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+        <li><a href="productos.html" data-i18n="nav.products">Productos</a></li>
+        <li><a href="origenes.html" data-i18n="nav.origins">Orígenes</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <span class="footer-copy">© 2026 Amari Cacao España · amari.eus</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
